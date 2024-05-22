@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  justify-self: center;
+  margin-left: 70%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin: 20px;
+}
+
+.tile {
+  background: #e99696;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 24px;
+  text-align: center;
+  user-select: none;
+}
+
+#outputString {
+  margin-top: 20px;
+  margin-left: 23%;
+  font-size: 24px;
+  /* word-wrap: break-word; */
+}
